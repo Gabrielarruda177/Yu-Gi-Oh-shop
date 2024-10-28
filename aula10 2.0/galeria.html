@@ -1,0 +1,591 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="../aula10 2.0/img/logo 2.png">
+
+</head>
+
+<body style="background-color: #ffffff;">
+
+
+  <nav class="navbar navbar-expand-lg" style="background-color: #1b1b1b;" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="../aula10 2.0/home.html"><img src="../aula10 2.0/img/logo 2.png" height="100"></a>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../aula10 2.0/home.html"
+              style="color: rgb(141, 141, 141);">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../aula10 2.0/galeria.html" style="color: rgb(141, 141, 141);">Galeria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../aula10 2.0/login.html" style="color: rgb(141, 141, 141);">login</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="../aula10 2.0/cadastro.html" style="color: rgb(141, 141, 141);">Cadastro</a>
+          </li>
+
+        </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="Escreva" placeholder="Escreva" aria-label="Escreva">
+          <button class="btn btn-primary" type="submit">Pesquisar</button>
+
+      </form>
+      </div>
+    </div>
+  </nav>
+
+
+      <h1 id="tulo">
+        ESCOLHA SEU DECK PARA SE DIVERTIR
+      </h1>
+
+  <div class="conteiner"> <!--Fileira 1-->
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/buster caixa 1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Batalha das Lendas: Vingança Monstruosa</h5>
+        <p class="card-text">A primeira coleção para celebrar o 25º aniversário de Yu-Gi-Oh! TCG com Raras Secretas
+          Quarter Century!</p>
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card1">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Batalha das Lendas: Vingança Monstruosa</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/buster caixa 1.png">
+          <div class="modal-body">
+            A primeira coleção para celebrar o 25º aniversário de Yu-Gi-Oh! TCG com Raras Secretas Quarter Century!
+          </div>
+          <h1 id="preço">R$ 499,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 1.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Duelistas Lendários: Dragão Branco do Abismo</h5>
+        <p class="card-text">A coleção Duelistas Lendários: Dragão Branco do Abismo abrange as 5 séries anteriores dos
+          animes e mangás de Yu-Gi-Oh!, partindo da saga original até chegar a GX, 5D’s, ZEXAL e ARC-V!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card2">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Duelistas Lendários: Dragão Branco do Abismo</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 1.png">
+          <div class="modal-body">
+            A coleção Duelistas Lendários: Dragão Branco do Abismo abrange as 5 séries anteriores dos animes e mangás de
+            Yu-Gi-Oh!, partindo da saga original até chegar a GX, 5D’s, ZEXAL e ARC-V! </div>
+          <h1 id="preço">R$ 19,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Salvadores das Trevas</h5>
+        <p class="card-text">A coleção de 60 estampas, Salvadores das Trevas, oferece a um monstro clássico dos filmes
+          de horror o poder pelo qual ele é conhecido e apresenta temas de Decks inéditos para os Duelistas iniciantes e
+          experientes! </p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card3">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Salvadores das Trevas</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 2.png">
+          <div class="modal-body">
+            A coleção de 60 estampas, Salvadores das Trevas, oferece a um monstro clássico dos filmes de horror o poder
+            pelo qual ele é conhecido e apresenta temas de Decks inéditos para os Duelistas iniciantes e experientes!
+
+          </div>
+          <h1 id="preço">R$ 29,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Pacote Estelar: VRAINS</h5>
+        <p class="card-text">Seguindo o advento da era Link, o Pacote Estelar: VRAINS traz diversos temas populares de
+          Yu-Gi-Oh! VRAINS.</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card4">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Pacote Estelar: VRAINS</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 3.png">
+          <div class="modal-body">
+            Seguindo o advento da era Link, o Pacote Estelar: VRAINS traz diversos temas populares de Yu-Gi-Oh! VRAINS.
+          </div>
+          <h1 id="preço">R$ 29,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="conteiner"> <!--Fileira2-->
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 5.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Fusão da Alma</h5>
+        <p class="card-text">A coleção de 100 estampas, Fusão da Alma, retorna às raízes de Yu-Gi-Oh! com novas
+          estratégias de Invocação-Fusão!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card5">
+        +Add
+      </button>
+    </div>
+    <div class="modal fade" id="card5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Fusão da Alma</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 5.png">
+          <div class="modal-body">
+            A coleção de 100 estampas, Fusão da Alma, retorna às raízes de Yu-Gi-Oh! com novas estratégias de
+            Invocação-Fusão! </div>
+          <h1 id="preço">R$ 49,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 6.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Ataque de Ignição</h5>
+        <p class="card-text">O maior medo da humanidade foi concretizado! As I.A.’s de Duelos tornaram-se
+          autoconscientes e organizaram o seu próprio exército para conquistar o Yu-Gi-Oh!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card6">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Ataque de Ignição</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 6.png">
+          <div class="modal-body">
+            O maior medo da humanidade foi concretizado! As I.A.’s de Duelos tornaram-se autoconscientes e organizaram o
+            seu próprio exército para conquistar o Yu-Gi-Oh! </div>
+          <h1 id="preço">R$ 29,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 7.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Duelistas Lendários: Herói Mágico</h5>
+        <p class="card-text">A coleção Duelistas Lendários: Herói Mágico apresenta a equipe mágica definitiva com o Mago
+          Negro e a Pequena Maga Negra de Yugi!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card7">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Duelistas Lendários: Herói Mágico</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 7.png">
+          <div class="modal-body">
+            A coleção Duelistas Lendários: Herói Mágico apresenta a equipe mágica definitiva com o Mago Negro e a
+            Pequena Maga Negra de Yugi! </div>
+          <h1 id="preço">R$ 39,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 8.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Duelistas Lendários: Fúria de Rá</h5>
+        <p class="card-text">A primeira coleção para celebrar o 25º aniversário de Yu-Gi-Oh! TCG com Raras Secretas
+          Quarter Century!Mergulhe profundamente nos Decks dos Duelistas envoltos em escuridão no próximo capítulo da
+          série Duelistas Lendários!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card8">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Duelistas Lendários: Fúria de Rá</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 8.png">
+          <div class="modal-body">
+            Mergulhe profundamente nos Decks dos Duelistas envoltos em escuridão no próximo capítulo da série Duelistas
+            Lendários! </div>
+          <h1 id="preço">R$ 39,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="conteiner"> <!--Fileira3-->
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/caixa 2.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Batalha das Lendas: Armagedom</h5>
+        <p class="card-text">A Batalha das Lendas: Armageddon chega em julho, desencadeando a devastação definitiva nos
+          Duelos deste verão!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card9">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Batalha das Lendas: Armagedom</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/caixa 2.png">
+          <div class="modal-body">
+            A Batalha das Lendas: Armageddon chega em julho, desencadeando a devastação definitiva nos Duelos deste
+            verão! </div>
+          <h1 id="preço">R$ 349,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/caixa3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Impacto Gênesis</h5>
+        <p class="card-text">Domine três estratégias inéditas enquanto mantém seus olhos atentos às Raras Colecionáveis
+          da nova coleção de 60 estampas, Impacto Gênesis!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card10">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card10" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Impacto Gênesis</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/caixa3.png">
+          <div class="modal-body">
+            Domine três estratégias inéditas enquanto mantém seus olhos atentos às Raras Colecionáveis da nova coleção
+            de 60 estampas, Impacto Gênesis! </div>
+          <h1 id="preço">R$ 479,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/caixa4.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Guardiões Antigos</h5>
+        <p class="card-text">A coleção Guardiões Antigos desenterra novos monstros poderosos no outono de 2021! Essa
+          coleção de 60 estampas apresenta 3 estratégias inéditas ao lado de reimpressões mais antigas capazes de
+          aprimorá-las!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card11">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Guardiões Antigos</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/caixa4.png">
+          <div class="modal-body">
+            A coleção Guardiões Antigos desenterra novos monstros poderosos no outono de 2021! Essa coleção de 60
+            estampas apresenta 3 estratégias inéditas ao lado de reimpressões mais antigas capazes de aprimorá-las!
+          </div>
+          <h1 id="preço">R$ 359,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem; border: 2px solid rgba(0, 0, 0, 0.24);">
+      <img src="./img/boster 9.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Irmãos das Lendas</h5>
+        <p class="card-text">Irmãos das Lendas chega com tudo nessa primavera!</p>
+
+      </div>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#card12">
+        +Add
+      </button>
+    </div>
+
+    <div class="modal fade" id="card12" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Irmãos das Lendas</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <img src="../aula10/img/boster 9.png">
+          <div class="modal-body">
+            Irmãos das Lendas chega com tudo nessa primavera! </div>
+          <h1 id="preço">R$ 29,99</h1>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Voltar</button>
+            <button type="button" class="btn btn-primary">Comprar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class=" text-center text-white" style="background-color:#000000;">
+    <!-- Grid container -->
+    <div class="container p-4">
+
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
+
+        <!-- Twitter -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+            class="fab fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
+      </section>
+      <!-- Section: Social media -->
+
+
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+           
+              <!--Grid column-->
+              <div class="col-auto">
+                <button type="button" class="btn btn-outline-light mb-4" onclick="window.location.href='../aula10 2.0/login.html'">
+                    Entre com sua conta
+                </button>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example2" class="form-control" />
+                <label class="form-label" for="form5Example2">Endereço Email</label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+
+
+              <!-- Submit button -->
+              <button type="button" class="btn btn-outline-light mb-4"
+                onclick="window.location.href='../aula10 2.0/cadastro.html'">
+                Inscreva-se
+              </button>
+
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Obrigado por visitar nosso site de Yu-Gi-Oh! Esperamos que tenha encontrado tudo o que precisa para aprimorar
+          suas jogadas e conhecimento. Continue duelando e volte sempre para mais estratégias e novidades!
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright: Hypn0s
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2020 Copyright: Arruda
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.min.css" rel="stylesheet" />
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/8.0.0/mdb.umd.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

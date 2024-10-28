@@ -1,0 +1,271 @@
+body {
+  background-color: rgb(17, 17, 17);
+  color: rgb(0, 0, 0);
+
+}
+
+
+
+
+.carossel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%; /* ou ajuste como preferir */
+    max-height: 400px; /* Defina o tamanho máximo desejado */
+    object-fit: cover; /* Para manter a proporção ao redimensionar */
+  }
+  
+.conteiner {
+
+  display: flex;
+  padding: 20px;
+  justify-content: space-between ;
+  width: 70%;
+  margin: auto;
+  gap: 10px;
+  
+}
+
+.cookie{
+  position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ff0000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: none; /* Começa invisível */
+    font-family: Arial, sans-serif;
+}
+
+.cookie-alert button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  background-color: #f1c40f;
+  border: none;
+  color: #333;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.cookie-alert button:hover {
+  background-color: #d4ac0d;
+}
+  
+
+
+
+#tulo{
+  
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  margin: 20px;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+  color: rgb(0, 0, 0);
+
+}
+
+#preço{
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  margin: 20px;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+  color: black;
+
+}
+
+
+
+.formulario {
+  position: relative;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: solid;
+  background-color: #ffffff3b;
+  backdrop-filter: blur(60px);
+  border-radius: 8px;
+}
+
+.quadrado{
+  background-color: red;
+  position: absolute;
+  top: 400px;
+  left: 600px;
+}
+
+.formulario h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.formulario .form-group {
+  margin-bottom: 15px;
+}
+
+.form-group-inline {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group-inline > div {
+  flex: 1;
+}
+
+.form-group-select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group-select label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group-select select {
+  width: 100%;
+  max-width: 300px;
+  padding: 8px;
+  font-size: 16px;
+}
+
+.btn-black {
+  background-color: transparent; /* Mantém a cor padrão de fundo */
+  color: rgb(0, 0, 0); /* Cor do texto */
+  border: 1px solid rgb(0, 0, 0); /* Cor da borda */
+  border-radius: 50px; /* Borda redonda */
+  padding: 10px 20px; /* Ajusta o preenchimento */
+  cursor: pointer; /* Muda o cursor para pointer */
+}
+
+.btn-black:hover {
+  background-color: #000000; /* Cor de fundo ao passar o mouse */
+  color: white; /* Cor do texto ao passar o mouse */
+}
+
+
+
+
+
+.footer {
+  background-color: #ffffff; /* Cor de fundo */
+  padding: 150px; /* Espaçamento interno */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer p {
+  margin: 0; /* Remove margem padrão */
+  color: #ffffff; /* Cor do texto */
+}
+
+
+
+.desc {
+  background-color: #0c0c0c;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 20% 0% 20%;
+}
+
+h1{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.texto1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  text-align: justify;
+  margin: 20px 0 0 20px;
+  padding: 0;
+
+}
+
+.texto2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: large;
+  text-align: justify;
+
+
+}
+
+
+
+
+
+/* Transição suave para as imagens */
+.desc img {
+
+  width: auto;
+  height: 300px;
+  transform: rotate(15deg);
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Transição para transformação e opacidade */
+}
+
+.img-container {
+  margin: 50px 30px 30px 0;
+  display: flex;
+  justify-content: center;
+
+}
+
+.img-container:hover img.image-front {
+  opacity: 0;
+  transform: rotate(0.5deg);
+}
+
+.img-container:hover img.image-side {
+  opacity: 1;
+  transform: rotate(0deg);
+}
+.image {
+  position: absolute;
+  transition: opacity 0.5s ease-in-out; /* Transição suave */
+}
+
+.image-side {
+  opacity: 0; /* Esconde a segunda imagem inicialmente */
+}
+
+.img-container:hover .image-side {
+  opacity: 1; /* Mostra a segunda imagem quando o mouse estiver sobre ela */
+}
+
+.img-container:hover .image-front {
+  opacity: 0; /* Esconde a primeira imagem quando o mouse estiver sobre ela */
+}
+
+.card, .nav-item, .btn-black{
+  transition: 0.2s;
+ 
+}
+
+.card:hover, .btn-black:hover{
+  transform: scale(1.1);
+  box-shadow: 0px 0px 30px 0 rgb(126, 126, 255);
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  filter: brightness(100);
+  
+
+}
